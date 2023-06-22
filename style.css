@@ -1,0 +1,128 @@
+body,h2{
+    margin:0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.landing{
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:rgb(247, 248, 245);
+}
+header a{
+    text-decoration: none;
+    color:rgb(240, 225, 15);
+}
+header{
+    display: flex;
+    padding: 1em;
+    font-weight: bolder;
+}
+#logo{
+    flex: 3;
+    font-size: 1.5em;
+}
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color: white;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color: rgb(17, 226, 146);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: rgb(230, 21, 177);
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.callus{
+    font-weight: bolder;
+    color: rgb(161, 230, 235);
+}
+.maintext div{
+    margin-top:.70em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .70em;
+    background:linear-gradient(to right ,rgb(255, 145, 0),rgb(255, 174, 0),rgb(255, 145, 0));
+    color: white;
+    font-weight: bolder;
+    border: 1px linear-gradient(to right ,rgb(255, 145, 0),rgb(255, 174, 0),rgb(255, 145, 0));
+}
+
+.menu{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    background:linear-gradient(to right ,rgb(255, 145, 0),rgb(255, 174, 0),rgb(255, 145, 0));
+    color: rgb(183, 236, 97);
+}
+#menuheading,#locheading{
+    background:linear-gradient(to right ,rgb(255, 145, 0),rgb(255, 174, 0),rgb(255, 145, 0));
+    font-size: 2.5em;
+    color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+}
+th{
+    color: rgb(221, 195, 146);
+    font-size: 1.6em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.menu td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row: span 2;
+
+}
+.locations{
+    background:linear-gradient(to right ,rgb(255, 145, 0),rgb(255, 174, 0),rgb(255, 145, 0));
+    color:  rgb(183, 236, 97);
+    display: flex;
+    flex-wrap: wrap;
+}   
+.locations h2{
+    color: rgb(221, 195, 146);
+    margin-bottom: 1em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+}
+footer{
+    background-color:rgb(255, 145, 0) ;
+    color: rgb(221, 195, 146) ;
+    font-weight: bolder;
+    padding:.25em 1em ;
+}
